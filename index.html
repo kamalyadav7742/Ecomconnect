@@ -2686,6 +2686,7 @@ var csrf_check = 1;
                                             .page_hdng4, .page_hdng4 h2 {
                                                 text-align: center;
                                                 font-family: 'Montserrat', sans-serif;
+                                                margin-right: -21px;
                                             }
 
                                             .page_hdng4 h2 {
@@ -2724,9 +2725,58 @@ var csrf_check = 1;
                                                 bottom: 0;
                                             }
 
+
+                                            /* overview */
+
+                                            
+                                            .page_hdng56 {
+                                                margin-bottom: 28px;
+                                            }
+
+                                            .page_hdng56, .page_hdng56 h2 {
+                                                text-align: left;
+                                                color: #fae90c;
+                                                font-size: 56px;
+                                            }
+                                            .page_hdng56 h2 {
+                                                font-size: 35px;
+                                                color: #000;
+                                                line-height: 1.2em;
+                                                text-transform: uppercase;
+                                                position: relative;
+                                                padding-bottom: 10px;
+                                                font-weight: 700;
+                                                margin: 0;
+                                            }
+
+                                            .page_hdng56 h2 small {
+                                                display: block;
+                                                font-size: 18px;
+                                                padding-top: 10px;
+                                                max-width: 80%;
+                                                margin: 0 auto;
+                                                font-weight: normal;
+                                                line-height: 1.3em;
+                                                text-align: center;
+                                                text-transform: none;
+                                            }
+
+                                            .page_hdng56 h2:after {
+                                                display: block;
+                                                content: "";
+                                                width: 100px;
+                                                height: 1px;
+                                                background: rgba(20, 33, 61,1);
+                                                position: absolute;
+                                                z-index: 2;
+                                                left: 14%;
+                                                margin-left: -50px;
+                                                bottom: 0;
+                                            }
+
                                             #banner {
-                                                padding: 100px 0 90px;
-                                                background: url('img/newoneban.png') no-repeat top right;
+                                                padding: 46px 0 80px;
+                                                background: url('img/Image2.jpg') no-repeat top right;
                                                 background-size: cover;
                                                 position: relative;
                                                 overflow: hidden;
@@ -2775,11 +2825,12 @@ var csrf_check = 1;
                                                 filter: grayscale(1);
                                             }
 
-                                            #banner .cntnd {
-                                                background: url(https://img.etb2bimg.com/files/cp/b1b01f257384d99bed83.png) no-repeat right center;
-                                                padding: 5px 0 0px;
-                                                position: relative;
-                                            }
+
+                                            /* #banner .cntnd {
+                                                background: url(https://img.etb2bimg.com/files/cp/b1b01f257384d99bed83.png) no-repeat right center; 
+                                                 padding: 5px 0 0px;
+                                                position: relative; 
+                                            } */
 
                                             #banner .cntnd img.partner {
                                                 position: absolute;
@@ -3047,12 +3098,12 @@ var csrf_check = 1;
                                             }
 
                                             @media screen and (max-width: 992px) {
-                                                #banner .cntnd {
+                                                /* #banner .cntnd {
                                                     background-image:url(https://img.etb2bimg.com/files/cp/456ddfc64b7b95df3bc0.png);
                                                     background-position: bottom center;
                                                     margin-bottom: 40px;
                                                     padding-bottom: 40px;
-                                                }
+                                                } */
 
                                                 body {
                                                     background-size: 200%;
@@ -3166,6 +3217,7 @@ var csrf_check = 1;
 
                                                 #banner .cntnd {
                                                     background-size: 75%;
+                                                    margin: 72px;
                                                 }
 
                                                 #banner video {
@@ -3534,7 +3586,7 @@ var csrf_check = 1;
 
                                             /*------------------------- /Overview --------------------------*/
                                             #stats {
-                                                background: rgba(20, 33, 61,1) url(https://img.etb2bimg.com/files/cphtmlimage-1668518819.jpg) no-repeat 0 0;
+                                                background: rgba(20, 33, 61,1) url('img/midone.png') no-repeat 0 0;
                                                 background-size: cover;
                                                 padding: 51px 0 60px;
                                             }
@@ -3583,7 +3635,52 @@ var csrf_check = 1;
                                                 }
 
                                                 #stats section h3 {
-                                                    font-size: 20px;
+                                                    font-size: 16px;
+                                                    min-height: 95px;
+                                                }
+                                            }
+                                            @media screen and (max-width: 993px) {
+                                                #stats section {
+                                                    padding: 10px 15px;
+                                                    width: 50%;
+                                                }
+
+                                                #stats section h3 strong {
+                                                    font-size: 38px;
+                                                }
+
+                                                #stats section h3 {
+                                                    font-size: 24px;
+                                                    min-height: 95px;
+                                                }
+                                            }
+                                            @media screen and (max-width: 513px) {
+                                                #stats section {
+                                                    padding: 10px 15px;
+                                                    width: 50%;
+                                                }
+
+                                                #stats section h3 strong {
+                                                    font-size: 38px;
+                                                }
+
+                                                #stats section h3 {
+                                                    font-size: 18px;
+                                                    min-height: 95px;
+                                                }
+                                            }
+                                            @media screen and (max-width: 388px) {
+                                                #stats section {
+                                                    padding: 10px 15px;
+                                                    width: 50%;
+                                                }
+
+                                                #stats section h3 strong {
+                                                    font-size: 38px;
+                                                }
+
+                                                #stats section h3 {
+                                                    font-size: 15px;
                                                     min-height: 95px;
                                                 }
                                             }
@@ -3620,6 +3717,8 @@ var csrf_check = 1;
                                             #dscn-topics section h4 {
                                                 color: white;
                                                 font-size: 16px;
+    word-wrap: break-word !important;
+                                                
                                                 line-height: 1.5em;
                                                 font-weight: 500;
                                                 padding-top: 15px;
@@ -3658,7 +3757,7 @@ var csrf_check = 1;
                                             }
 
                                             #dscn-topics section:hover h4, #dscn-topics section.hover h4 {
-                                                color: #000
+                                                color: rgba(255, 255, 255, 0.836)
                                             }
 
                                             #dscn-topics section:hover h4:after, #dscn-topics section.hover h4:after {
@@ -4251,6 +4350,13 @@ var csrf_check = 1;
                                                 }
                                             }
 
+                                            .dt-13.dtstyle-2 img {
+    margin-bottom: 0 !important;
+    filter: grayscale(0) !important;
+    border-radius: 0px !important;
+    max-width: 100% !important;
+    height: 206px !important;
+}
                                             /*-------------------------- /AboutUs Bottom -----------------------------------*/
                                             #how-attend {
                                                 text-align: center;
@@ -5365,11 +5471,18 @@ var csrf_check = 1;
                                     <div id="banner-inpagenavid" style="position:absolute;"></div>
                                 </div>
                                 <section id="banner" class="mb-medium bgCover_1" >
-                                    <div class="container">
-                                        <div class="scroll-nav">
-                                            <div class="container ">
+                                    <div class="container-fluid">
+                                        <div class="scroll-nav ">
+                                           
+                                            <div class="container-fluid ">
+                                                <!-- <div style="display: flex; justify-content: start;">
+                                                  
+                                                </div> -->
                                                 <nav class="">
+                                                   
                                                     <ul>
+                                                        <li>  <img src="img/banner1.png" alt="Award" clas="img-fluid" width="100px"></li>
+                                                        
                                                         <li>
                                                             <a href="#overview">Overview</a>
                                                         </li>
@@ -5383,12 +5496,15 @@ var csrf_check = 1;
                                                             <a href="#agenda">Agenda</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#who-attend">Who Should Attend</a>
+                                                            <a href="#who-attend">Why Attend</a>
                                                         </li>
                                                         <li>
                                                             <a href="#contacts">Contact Us</a>
                                                         </li>
-                                                        <li class="dropdown mob-hide">
+                                                        <li>
+                                                            <a href="#event-scheduled">Event Scheduled</a>
+                                                        </li>
+                                                        <!-- <li class="dropdown mob-hide">
                                                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                                                 Previous Edition <span class="caret"></span>
                                                             </a>
@@ -5400,37 +5516,193 @@ var csrf_check = 1;
                                                                     <a href="https://retail.economictimes.indiatimes.com/supply-chain-summit2021" target="_blank">Supply Chain Summit 2021</a>
                                                                 </li>
                                                             </ul>
-                                                        </li>
+                                                        </li> -->
                                                         <!--<li><a href="https://retail.economictimes.indiatimes.com" target="_blank">ETRetail.com</a></li>-->
                                                     </ul>
                                                 </nav>
                                             </div>
                                         </div>
-                                      
-                                        <div class="container animatedParent animateOnce">
-                                            <div class="row cntnd-bx">
-                                                <div class="col-md-8">
-                                                    <div class="cntnd">
-                                                        <img src="img/banner.jpg.png" alt="ETRetail Supply Chain Summit" class="logo animated delay-1s fadeInUp"/>
-                                                        <div class="lcn clearfix animated delay-2s fadeInUp">
-                                                            <div>
-                                                                2nd March 2023 <span class="dvdr">|</span>
-                                                                Sahara Star Hotel, Mumbai
-                                                            </div>
-                                                            <div class="btn-wrapper-alrt" span="">Watch On Demand Event will be available soon, stay tuned!</div>
-                                                            <!--<div style="margin-top: 2%;"><strong>Registration Closed</strong></div>-->
-                                                        </div>
-                                                        <!--div class="btn-wrapper "><a type="button" class="popup-form_custom book-btn animated delay-2s fadeInUp" formid="form-576-1668506530">Express Interest</a> <a type="button" class="popup-form_custom book-btn inverse animated delay-2s fadeInUp" formid="form-500-1668505741">Join as Partner</a> <<a type="button" class="vconfex-popup book-btn inverse animated delay-2s fadeInUp hide" data-formid="join-now">Join now</a>></div-->
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 animated delay-2s fadeInUp related">
-                                                    <section>
-                                                        <img src="img/banner1.png" alt="Award" style="width: 300px;">
-                                                        <a href="https://retail.economictimes.indiatimes.com/retail-awards" target="_blank" class="more">Know More</a>
-                                                    </section>
+
+                                        <style>
+ 
+ .bottom-register {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -56px;
+    left: 334px;
+    width: 50%;
+    color: #ffc107;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.btn-yellow-theme {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px; /* Added margin-top to create space between text and button */
+}
+
+.btn-yellow-theme:hover {
+    /* background-color: #e0a800; */
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .bottom-register {
+        bottom: -37px !important;
+        left: 172px !important;
+        width: 58% !important;
+        color: #ffc107;
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .btn-yellow-theme {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 742px) {
+    .bottom-register {
+        bottom: -37px !important;
+        left: 103px !important;
+        width: 79% !important;
+        color: #ffc107;
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .btn-yellow-theme {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 530px) {
+    .bottom-register {
+        bottom: -18px !important;
+        left: 91px !important;
+        width: 84% !important;
+        font-size: 17px !important;
+        color: #ffc107;
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .btn-yellow-theme {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 406px) {
+    .bottom-register {
+        bottom: -18px !important;
+        left: 91px !important;
+        width: 84% !important;
+        font-size: 13px !important;
+        color: #ffc107;
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .btn-yellow-theme {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 508px) {
+    
+.dtstyle-default.dt-13 h5 {
+        font-size: 13px !important;
+    }
+
+}
+@media (max-width: 447px) {
+    
+.dtstyle-default.dt-13 h5 {
+        font-size: 11px !important;
+    }
+
+}
+@media (max-width: 414px) {
+    
+.dt-13.dtstyle-2 img {
+       height: 155px !important;
+    }
+
+}
+@media (max-width: 414px) {
+    
+#dscn-topics section h4 {
+    font-size: 13px !important;
+    word-wrap: break-word !important;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding-top: 15px;
+
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .bottom-register {
+        bottom: -56px;
+        left: 244px;
+        width: 53%;
+        color: #ffc107;
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        padding: 20px 0;
+    }
+
+    .btn-yellow-theme {
+        padding: 6px 7px;
+        font-size: 12px;
+    }
+}
+
+                                        </style>
+                                     <div class="container animatedParent animateOnce" style="position: relative;">
+                                        <div class="row cntnd-bx" style="display: flex; justify-content: center; align-items: center;">
+                                            <div class="col-md-5">
+                                                <div class="cntnd">
+                                                    <img src="img/banner.jpg.png" alt="ETRetail Supply Chain Summit" style="width: 400px;" class="logo animated delay-1s fadeInUp"/>
                                                 </div>
                                             </div>
+                                            <!-- <div class="col-md-4 animated delay-2s fadeInUp related">
+                                                <section>
+                                                    <img src="img/banner1.png" alt="Award">
+                                                </section>
+                                            </div> -->
                                         </div>
+                                        <div class="bottom-register">                                            Don't miss this opportunity.
+                                            <div style="margin-top: 15px;">
+
+                                                <a href="https://wa.me/9625877277?text=I would like to register as a delegate for E-COMCONNECT." target="_blank" class="btn-yellow-theme">REGISTER NOW.</a>
+                                            </div>
+                                            </div>
+                                    </div>
+                                    
+                                    
+
                                         <script>
                                             // <![CDATA[
                                             $(document).ready(function() {
@@ -5462,6 +5734,10 @@ var csrf_check = 1;
                                                 $("a[href='#contacts']").on('click', function(e) {
                                                     e.preventDefault();
                                                     customScrollTo($('#contacts'));
+                                                });
+                                                $("a[href='#event-scheduled']").on('click', function(e) {
+                                                    e.preventDefault();
+                                                    customScrollTo($('#event-scheduled'));
                                                 });
 
                                                 //$(".book-btn").on('click',function(){
@@ -5517,10 +5793,8 @@ var csrf_check = 1;
                                     <div class="container">
                                         <div class="container animatedParent animateOnce">
                                             <div class="row">
-                                                <div class="col-md-10">
-
-                                                <div class="page_hdng4 animated fadeInUp 
-     delay-1s">
+                                                <div class="col-md-10" sty>
+                                                    <div class="page_hdng4 animated fadeInUp delay-1s">
                                                                 <h2>Sponser</h2>
                                                             </div>
                                                 <div class="col-md-12 animated fadeInUp delay-1s">
@@ -5532,7 +5806,7 @@ var csrf_check = 1;
                                                     <section>
                                                        
                                                         <a href="" target="_blank">
-                                                            <img src="img/issum.webp" style="width: 100%; max-width: 350px;" alt=""/>
+                                                            <img src="img/issum.webp" style="width: 83%; max-width: 350px;" alt=""/>
                                                         </a>
                                                     </section>
                                                 </div>
@@ -5546,20 +5820,18 @@ var csrf_check = 1;
                                 </div>
                                 <section id="overview" class="mb-medium bgCover_1">
                                     <div class="container">
-                                        <div class="container animatedParent animateOnce">
-                                            <div class="row description">
-                                                <div class="col-md-4">
-                                                    <div class="quote">
-                                                        <!-- <img src="https://img.etb2bimg.com/files/cphtmlimage-1668514768.png" alt="" class="animated fadeInUp 
-     delay-1s"/> -->
-                                                        <!--<p class="animated fadeInUp 
-     delay-2s">Top Retail, Food, Pharma FMCG, and Many more Sectors to share intelligent insights on Supply Chain and Packaging Developments in the current Scenario.</p>-->
+                                        <div class="container animatedParent  animateOnce">
+                                            <div class="row description ">
+                                                <div class="col-md-4  text-center">
+                                                    <div class="mt-5 text-center" style="margin-top: 80px;">
+
+                                                        <img src="img/overviewcopyremovebg.png" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-8">
+                                                <div class="col-md-8" >
                                                     <article>
                                                         <div class="text-style ">
-                                                            <div class="page_hdng4 animated fadeInUp 
+                                                            <div class="page_hdng56 animated fadeInUp 
      delay-1s">
                                                                 <h2>Overview</h2>
                                                             </div>
@@ -7093,9 +7365,9 @@ var csrf_check = 1;
                                             </div>
                                         </div>
                                         <div class="row news_lst17 masonry-grid_" id="speakers_list">
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_1" href="#speakers_1_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674472557_14735_1x1.jpg","text_1":"Swaminathan Ramachandran","text_2":"Chief Supply Chain Officer","text_3":""}'>
-                                                    <img class="unveil" src="img/1.jpeg" style="height: 240px;" data-src="https://img.etb2bimg.com/files/cp/data_file_1674472557_14735_1x1.jpg" alt="Swaminathan Ramachandran" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Virat Sharma_ZEPTOcopy.jpg" style="height: 240px;" data-src="img/Virat Sharma_ZEPTOcopy.jpg" alt="Swaminathan Ramachandran" onload="onMasonryGridImgLoaded()">
                                                          <div class="caption">
                                                         <h5>Virat Sharma</h5>
                                                         <span>VP-Supply Chain Operations<br> Zepto</span>
@@ -7103,26 +7375,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_1_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="img/1.jpeg" alt="Swaminathan Ramachandran"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Swaminathan Ramachandran</p>
-                                                            <div class="author">
-                                                                <strong>Swaminathan Ramachandran</strong>
-                                                                Chief Supply Chain Officer<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                          
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_2" href="#speakers_2_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676821201_90640_1x1.jpg","text_1":"Arvind Mediratta","text_2":"MD \u0026 CEO","text_3":""}'>
-                                                    <img class="unveil" src="img/3.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676821201_90640_1x1.jpg" alt="Arvind Mediratta" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Vinay Gupta_BAJAJ CONSUMER CARE.jpg" data-src="img/Vinay Gupta_BAJAJ CONSUMER CARE.jpg" alt="Arvind Mediratta" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Vinay Gupta</h5>
                                                         <span> Head-Planning & Distribution<br> Bajaj Consumer Care</span>
@@ -7130,26 +7386,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_2_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676821201_90640_1x1.jpg" alt="Arvind Mediratta"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Arvind Mediratta</p>
-                                                            <div class="author">
-                                                                <strong>Arvind Mediratta</strong>
-                                                                MD & CEO<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_3" href="#speakers_3_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674474001_21140_1x1.jpg","text_1":"Dr. Sanjeevv Khanna","text_2":"COO","text_3":""}'>
-                                                    <img class="unveil" src="img/5.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674474001_21140_1x1.jpg" alt="Dr. Sanjeevv Khanna" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Varun Mishra_FLIPKART HEALTH+.jpg" data-src="img/Varun Mishra_FLIPKART HEALTH+.jpg" alt="Dr. Sanjeevv Khanna" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Varun Mishra<h5>
                                                         <span>Head of Marketplace<br> Flipkart Health+</span>
@@ -7157,26 +7397,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_3_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674474001_21140_1x1.jpg" alt="Dr. Sanjeevv Khanna"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Varun Mishra</p>
-                                                            <div class="author">
-                                                                <strong>Varun Mishra</strong>
-                                                                COO<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_4" href="#speakers_4_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676982710_90301_1x1.jpg","text_1":"Angira Agrawal","text_2":"SVP GTM and Strategy","text_3":""}'>
-                                                    <img class="unveil" src="img/7.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676982710_90301_1x1.jpg" alt="Angira Agrawal" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Utpal Kant_FLIPKART.jpg" data-src="img/Utpal Kant_FLIPKART.jpg" alt="Angira Agrawal" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Utpal Kant</h5>
                                                         <span>Sr. Category manager Ex- Supply cahin Designer<br>Flipkart</span>
@@ -7184,26 +7408,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_4_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676982710_90301_1x1.jpg" alt="Angira Agrawal"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Utpal Kant</p>
-                                                            <div class="author">
-                                                                <strong>AUtpal Kant</strong>
-                                                                SVP GTM and Strategy<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_5" href="#speakers_5_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676021062_43979_1x1.jpg","text_1":"Dr. Surendra Ahirwar","text_2":"Joint Secretary, DPIIT","text_3":""}'>
-                                                    <img class="unveil" src="img/9.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676021062_43979_1x1.jpg" alt="Dr. Surendra Ahirwar" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Umesh Kaushik_HOME ALANKAR RETAIL NETWORK.jpg" data-src="img/Umesh Kaushik_HOME ALANKAR RETAIL NETWORK.jpg" alt="Dr. Surendra Ahirwar" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Umesh kaushik</h5>
                                                         <span>Head Supply Chain & Global Business<br> Home Alankar Retail Network</span>
@@ -7211,26 +7419,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_5_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676021062_43979_1x1.jpg" alt="Dr. Surendra Ahirwar"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Umesh kaushik</p>
-                                                            <div class="author">
-                                                                <strong>Umesh kaushik</strong>
-                                                                Joint Secretary, DPIIT<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                         
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_6" href="#speakers_6_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676873900_85008_1x1.jpg","text_1":"Kavitha Rao","text_2":"Managing Director \u0026 Lead \u2013 Retail","text_3":""}'>
-                                                    <img class="unveil" src="img/11.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676873900_85008_1x1.jpg" alt="Kavitha Rao" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Sandip Balakrishnan_SWIGGY.jpg" data-src="img/Sandip Balakrishnan_SWIGGY.jpg" alt="Kavitha Rao" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Sandeep Balkishan</h5>
                                                         <span>Director- SCM <br> Swiggy</span>
@@ -7238,26 +7430,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_6_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676873900_85008_1x1.jpg" alt="Kavitha Rao"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Sandeep Balkishan</p>
-                                                            <div class="author">
-                                                                <strong>Sandeep Balkishan</strong>
-                                                                Managing Director & Lead – Retail<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_7" href="#speakers_7_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676020768_79310_1x1.jpg","text_1":"Vinay Dhanani","text_2":"COO","text_3":""}'>
-                                                    <img class="unveil" src="img/13.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676020768_79310_1x1.jpg" alt="Vinay Dhanani" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Siddharth Mishra_BIGBASKETCOM.jpg" data-src="img/Siddharth Mishra_BIGBASKETCOM.jpg" alt="Vinay Dhanani" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Siddhart Mishra</h5>
                                                         <span>Sr. Product Manager<br> Bigbasket.com</span>
@@ -7265,26 +7441,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_7_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676020768_79310_1x1.jpg" alt="Vinay Dhanani"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Siddhart Mishra</p>
-                                                            <div class="author">
-                                                                <strong>Siddhart Mishra</strong>
-                                                                COO<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                         
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_8" href="#speakers_8_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677035839_90512_1x1.jpg","text_1":"J P Mishra","text_2":"Country Manager \u2013 India","text_3":""}'>
-                                                    <img class="unveil" src="img/15.jpeg" style="height: 290px;" data-src="https://img.etb2bimg.com/files/cp/data_file_1677035839_90512_1x1.jpg" alt="J P Mishra" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Shiv Sharma_SWIGGY INSTAMART.jpg" style="height: 290px;" data-src="img/Shiv Sharma_SWIGGY INSTAMART.jpg" alt="J P Mishra" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Shiv Sharma</h5>
                                                         <span>Cluster Head North Region<br>Swiggy Instamart</span>
@@ -7292,26 +7452,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_8_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677035839_90512_1x1.jpg" alt="J P Mishra"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Shiv Sharma</p>
-                                                            <div class="author">
-                                                                <strong>Shiv Sharma</strong>
-                                                                Country Manager – India<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                          
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_9" href="#speakers_9_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677075028_27955_1x1.jpg","text_1":"Bhudeep Hathi","text_2":"Managing Director and Lead - Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="img/17.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1677075028_27955_1x1.jpg" alt="Bhudeep Hathi" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Sankaranarayanan Alagappan_PLUM GOODNESS.jpg" data-src="img/Sankaranarayanan Alagappan_PLUM GOODNESS.jpg" alt="Bhudeep Hathi" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Sankaranarayanam Alagappan</h5>
                                                         <span>Cheif Supply Chain Officer</span>
@@ -7320,26 +7464,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_9_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677075028_27955_1x1.jpg" alt="Bhudeep Hathi"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Bhudeep Hathi</p>
-                                                            <div class="author">
-                                                                <strong>Bhudeep Hathi</strong>
-                                                                Managing Director and Lead - Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_10" href="#speakers_10_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674472973_85475_1x1.jpg","text_1":"Sandeep Kulkarni","text_2":"Chief Supply Chain Officer","text_3":""}'>
-                                                    <img class="unveil" src="img/19.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674472973_85475_1x1.jpg" alt="Sandeep Kulkarni" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Puneet Bajaj_SHAKTI TRENDZ.jpg" data-src="img/Puneet Bajaj_SHAKTI TRENDZ.jpg" alt="Sandeep Kulkarni" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Puneet Bajaj</h5>
                                                         <span>CEO Co Founder<br>Shakti Trendz</span>
@@ -7348,26 +7476,10 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_10_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674472973_85475_1x1.jpg" alt="Sandeep Kulkarni"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Sandeep Kulkarni</p>
-                                                            <div class="author">
-                                                                <strong>Sandeep Kulkarni</strong>
-                                                                Chief Supply Chain Officer<br>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_11" href="#speakers_11_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676983573_32889_1x1.jpg","text_1":"Saiba Suri","text_2":"Country Customer Fulfilment Manager","text_3":""}'>
-                                                    <img class="unveil" src="img/21.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676983573_32889_1x1.jpg" alt="Saiba Suri" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Pranat Kulkarni_FLIPKART.jpg" data-src="img/Pranat Kulkarni_FLIPKART.jpg" alt="Saiba Suri" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
                                                         <h5>Pranat kulkarni</h5>
                                                         <span>Associate Director- Strategy, Planning& Growth<br>Flipkart<br>Bigbasket.com</span>
@@ -7375,701 +7487,109 @@ var csrf_check = 1;
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_11_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676983573_32889_1x1.jpg" alt="Saiba Suri"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Saiba Suri</p>
-                                                            <div class="author">
-                                                                <strong>Saiba Suri</strong>
-                                                                Country Customer Fulfilment Manager<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <!-- <a id="speakers_item_12" href="#speakers_12_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676821424_24629_1x1.jpg","text_1":"K Radhakrishnan","text_2":"Co-Founder","text_3":""}'>
-                                                    <img class="unveil" src="img/.jpeg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676821424_24629_1x1.jpg" alt="K Radhakrishnan" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>K Radhakrishnan</h5>
-                                                        <span>Co-Founder</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676821423_67825.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_12_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676821424_24629_1x1.jpg" alt="K Radhakrishnan"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">K Radhakrishnan</p>
-                                                            <div class="author">
-                                                                <strong>K Radhakrishnan</strong>
-                                                                Co-Founder<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_13" href="#speakers_13_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677309455_20537_1x1.jpg","text_1":"Neha Parekh","text_2":"Director-Supply Chain, Nivea","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1677309455_20537_1x1.jpg" alt="Neha Parekh" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Neha Parekh</h5>
-                                                        <span>Director-Supply Chain, Nivea</span>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_13_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677309455_20537_1x1.jpg" alt="Neha Parekh"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Neha Parekh</p>
-                                                            <div class="author">
-                                                                <strong>Neha Parekh</strong>
-                                                                Director-Supply Chain, Nivea<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_14" href="#speakers_14_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1675744928_56860_1x1.jpg","text_1":"Ashish Bansal","text_2":"VP - Customer Service and Logistics","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1675744928_56860_1x1.jpg" alt="Ashish Bansal" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Ashish Bansal</h5>
-                                                        <span>VP - Customer Service and Logistics</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417992_29908.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_14_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1675744928_56860_1x1.jpg" alt="Ashish Bansal"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Ashish Bansal</p>
-                                                            <div class="author">
-                                                                <strong>Ashish Bansal</strong>
-                                                                VP - Customer Service and Logistics<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_15" href="#speakers_15_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473515_47076_1x1.jpg","text_1":"Venkat Venepally","text_2":"Vice President-Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473515_47076_1x1.jpg" alt="Venkat Venepally" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Venkat Venepally</h5>
-                                                        <span>Vice President-Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674475286_86719.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_15_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473515_47076_1x1.jpg" alt="Venkat Venepally"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Venkat Venepally</p>
-                                                            <div class="author">
-                                                                <strong>Venkat Venepally</strong>
-                                                                Vice President-Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_16" href="#speakers_16_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677309593_73634_1x1.jpg","text_1":"Suchit Sikaria","text_2":"Chief Business Officer, SUGAR Cosmetics","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1677309593_73634_1x1.jpg" alt="Suchit Sikaria" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Suchit Sikaria</h5>
-                                                        <span>Chief Business Officer, SUGAR Cosmetics</span>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_16_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677309593_73634_1x1.jpg" alt="Suchit Sikaria"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Suchit Sikaria</p>
-                                                            <div class="author">
-                                                                <strong>Suchit Sikaria</strong>
-                                                                Chief Business Officer, SUGAR Cosmetics<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_17" href="#speakers_17_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676021523_90772_1x1.jpg","text_1":"Abhinav Singh","text_2":"Director, Customer Fulfilment, Supply Chain \u0026 Amazon Transportation Services,","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1676021523_90772_1x1.jpg" alt="Abhinav Singh" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Abhinav Singh</h5>
-                                                        <span>Director, Customer Fulfilment, Supply Chain & Amazon Transportation Services,</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676021523_56643.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_17_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676021523_90772_1x1.jpg" alt="Abhinav Singh"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Abhinav Singh</p>
-                                                            <div class="author">
-                                                                <strong>Abhinav Singh</strong>
-                                                                Director, Customer Fulfilment, Supply Chain & Amazon Transportation Services,<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_18" href="#speakers_18_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473179_28792_1x1.jpg","text_1":"Samrat Sehgal","text_2":"Head of Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473179_28792_1x1.jpg" alt="Samrat Sehgal" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Samrat Sehgal</h5>
-                                                        <span>Head of Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674475411_19555.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_18_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473179_28792_1x1.jpg" alt="Samrat Sehgal"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Samrat Sehgal</p>
-                                                            <div class="author">
-                                                                <strong>Samrat Sehgal</strong>
-                                                                Head of Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_19" href="#speakers_19_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676821799_31604_1x1.jpg","text_1":"Dhiraj Jain","text_2":"Vice President- Strategic Sourcing","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1676821799_31604_1x1.jpg" alt="Dhiraj Jain" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Dhiraj Jain</h5>
-                                                        <span>Vice President- Strategic Sourcing</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676820922_38419.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_19_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676821799_31604_1x1.jpg" alt="Dhiraj Jain"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Dhiraj Jain</p>
-                                                            <div class="author">
-                                                                <strong>Dhiraj Jain</strong>
-                                                                Vice President- Strategic Sourcing<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_20" href="#speakers_20_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676820673_35598_1x1.jpg","text_1":"Anshuman Neil Basu","text_2":"Secretary General","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1676820673_35598_1x1.jpg" alt="Anshuman Neil Basu" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Anshuman Neil Basu</h5>
-                                                        <span>Secretary General</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676820672_84729.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_20_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676820673_35598_1x1.jpg" alt="Anshuman Neil Basu"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Anshuman Neil Basu</p>
-                                                            <div class="author">
-                                                                <strong>Anshuman Neil Basu</strong>
-                                                                Secretary General<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_21" href="#speakers_21_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473257_50420_1x1.jpg","text_1":"Ranjan Sharma","text_2":"CIO, Head of Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473257_50420_1x1.jpg" alt="Ranjan Sharma" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Ranjan Sharma</h5>
-                                                        <span>CIO, Head of Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674475532_42980.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_21_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473257_50420_1x1.jpg" alt="Ranjan Sharma"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Ranjan Sharma</p>
-                                                            <div class="author">
-                                                                <strong>Ranjan Sharma</strong>
-                                                                CIO, Head of Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_22" href="#speakers_22_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1675417949_21691_1x1.jpg","text_1":"Seetharam Srinivasan","text_2":"Director - Supply Chain \u0026 Customer Experience","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417949_21691_1x1.jpg" alt="Seetharam Srinivasan" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Seetharam Srinivasan</h5>
-                                                        <span>Director - Supply Chain & Customer Experience</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417949_71605.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_22_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1675417949_21691_1x1.jpg" alt="Seetharam Srinivasan"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Seetharam Srinivasan</p>
-                                                            <div class="author">
-                                                                <strong>Seetharam Srinivasan</strong>
-                                                                Director - Supply Chain & Customer Experience<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_23" href="#speakers_23_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674624837_28248_1x1.jpg","text_1":"Umesh Joshi","text_2":"Director Supply Chain (Integrated SC, QS \u0026 NPD)","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674624837_28248_1x1.jpg" alt="Umesh Joshi" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Umesh Joshi</h5>
-                                                        <span>Director Supply Chain (Integrated SC, QS & NPD)</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674628983_71225.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_23_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674624837_28248_1x1.jpg" alt="Umesh Joshi"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Umesh Joshi</p>
-                                                            <div class="author">
-                                                                <strong>Umesh Joshi</strong>
-                                                                Director Supply Chain (Integrated SC, QS & NPD)<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_24" href="#speakers_24_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473330_91450_1x1.jpg","text_1":"Tarun Mangal","text_2":"VP Product \u0026 Engineering \u2013 Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473330_91450_1x1.jpg" alt="Tarun Mangal" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Tarun Mangal</h5>
-                                                        <span>VP Product & Engineering – Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674474047_39397.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_24_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473330_91450_1x1.jpg" alt="Tarun Mangal"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Tarun Mangal</p>
-                                                            <div class="author">
-                                                                <strong>Tarun Mangal</strong>
-                                                                VP Product & Engineering – Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_25" href="#speakers_25_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1675417900_62854_1x1.jpg","text_1":"Aashutosh Taparia","text_2":"Regional Head","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417900_62854_1x1.jpg" alt="Aashutosh Taparia" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Aashutosh Taparia</h5>
-                                                        <span>Regional Head</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417899_23614.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_25_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1675417900_62854_1x1.jpg" alt="Aashutosh Taparia"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Aashutosh Taparia</p>
-                                                            <div class="author">
-                                                                <strong>Aashutosh Taparia</strong>
-                                                                Regional Head<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_26" href="#speakers_26_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677597708_30796_1x1.jpg","text_1":"Ankur Chaudhary","text_2":"VP, Retail Head, Honasa Consumer Limited (Mamaearth)","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1677597708_30796_1x1.jpg" alt="Ankur Chaudhary" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Ankur Chaudhary</h5>
-                                                        <span>VP, Retail Head, Honasa Consumer Limited (Mamaearth)</span>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_26_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677597708_30796_1x1.jpg" alt="Ankur Chaudhary"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Ankur Chaudhary</p>
-                                                            <div class="author">
-                                                                <strong>Ankur Chaudhary</strong>
-                                                                VP, Retail Head, Honasa Consumer Limited (Mamaearth)<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_27" href="#speakers_27_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473422_91413_1x1.jpg","text_1":"Yatish Vatsaraj","text_2":"Head Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473422_91413_1x1.jpg" alt="Yatish Vatsaraj" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Yatish Vatsaraj</h5>
-                                                        <span>Head Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674474426_88389.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_27_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473422_91413_1x1.jpg" alt="Yatish Vatsaraj"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Yatish Vatsaraj</p>
-                                                            <div class="author">
-                                                                <strong>Yatish Vatsaraj</strong>
-                                                                Head Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_28" href="#speakers_28_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473595_39253_1x1.jpg","text_1":"Piyush Agarwal","text_2":"Vice President - Supply Chain","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473595_39253_1x1.jpg" alt="Piyush Agarwal" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Piyush Agarwal</h5>
-                                                        <span>Vice President - Supply Chain</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674475634_66001.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_28_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473595_39253_1x1.jpg" alt="Piyush Agarwal"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Piyush Agarwal</p>
-                                                            <div class="author">
-                                                                <strong>Piyush Agarwal</strong>
-                                                                Vice President - Supply Chain<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_29" href="#speakers_29_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674624479_63998_1x1.jpg","text_1":"Pankaj Jain","text_2":"Head- Business Fulfilment","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674624479_63998_1x1.jpg" alt="Pankaj Jain" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Pankaj Jain</h5>
-                                                        <span>Head- Business Fulfilment</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674627919_56053.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_29_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674624479_63998_1x1.jpg" alt="Pankaj Jain"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Pankaj Jain</p>
-                                                            <div class="author">
-                                                                <strong>Pankaj Jain</strong>
-                                                                Head- Business Fulfilment<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_30" href="#speakers_30_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674474237_93119_1x1.jpg","text_1":"Sankaranarayanan Alagappan","text_2":"Chief Supply Chain Officer","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674474237_93119_1x1.jpg" alt="Sankaranarayanan Alagappan" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Sankaranarayanan Alagappan</h5>
-                                                        <span>Chief Supply Chain Officer</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473875_59241.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_30_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674474237_93119_1x1.jpg" alt="Sankaranarayanan Alagappan"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Sankaranarayanan Alagappan</p>
-                                                            <div class="author">
-                                                                <strong>Sankaranarayanan Alagappan</strong>
-                                                                Chief Supply Chain Officer<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_31" href="#speakers_31_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1675417724_70244_1x1.jpg","text_1":"Vivek Gaurav","text_2":"Author, \u2018Happiness\u2019 Speaker, Director Operations, Cipla Health","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1675417724_70244_1x1.jpg" alt="Vivek Gaurav" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Vivek Gaurav</h5>
-                                                        <span>Author, ‘Happiness’ Speaker, Director Operations, Cipla Health</span>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_31_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1675417724_70244_1x1.jpg" alt="Vivek Gaurav"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Vivek Gaurav</p>
-                                                            <div class="author">
-                                                                <strong>Vivek Gaurav</strong>
-                                                                Author, ‘Happiness’ Speaker, Director Operations, Cipla Health<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_32" href="#speakers_32_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676985064_67424_1x1.jpg","text_1":"Rishi Diwan","text_2":"VP-Supply Chain Operations","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1676985064_67424_1x1.jpg" alt="Rishi Diwan" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Rishi Diwan</h5>
-                                                        <span>VP-Supply Chain Operations</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1676985064_16844.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_32_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676985064_67424_1x1.jpg" alt="Rishi Diwan"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Rishi Diwan</p>
-                                                            <div class="author">
-                                                                <strong>Rishi Diwan</strong>
-                                                                VP-Supply Chain Operations<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_33" href="#speakers_33_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1674473928_43260_1x1.jpg","text_1":"Shaik Asad Parwez","text_2":"Head - Logistics \u0026 Warehousing","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1674473928_43260_1x1.jpg" alt="Shaik Asad Parwez" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Shaik Asad Parwez</h5>
-                                                        <span>Head - Logistics & Warehousing</span>
-                                                        <figure class="bottom">
-                                                            <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/etretail-default.jpg" data-src="https://img.etb2bimg.com/files/cp/data_file_1674135550_84116.jpg" alt="" onload="onMasonryGridImgLoaded()">
-                                                        </figure>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_33_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1674473928_43260_1x1.jpg" alt="Shaik Asad Parwez"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Shaik Asad Parwez</p>
-                                                            <div class="author">
-                                                                <strong>Shaik Asad Parwez</strong>
-                                                                Head - Logistics & Warehousing<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
-                                                <a id="speakers_item_34" href="#speakers_34_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1677309342_10412_1x1.jpg","text_1":"Neelesh Mundra","text_2":"Partner, Mckinsey \u0026 Company","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1677309342_10412_1x1.jpg" alt="Neelesh Mundra" onload="onMasonryGridImgLoaded()">
-                                                    <div class="caption">
-                                                        <h5>Neelesh Mundra</h5>
-                                                        <span>Partner, Mckinsey & Company</span>
-                                                    </div>
-                                                </a>
-                                            </article>
-                                            <div id="speakers_34_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1677309342_10412_1x1.jpg" alt="Neelesh Mundra"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Neelesh Mundra</p>
-                                                            <div class="author">
-                                                                <strong>Neelesh Mundra</strong>
-                                                                Partner, Mckinsey & Company<p></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <article class="col-md-2 col-sm-3 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                         
+                                          
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
                                                 <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
-                                                    <img class="unveil" src="https://st.etb2bimg.com/Themes/Release/images/responsive/default-face-min.png" data-src="https://img.etb2bimg.com/files/cp/data_file_1676984852_20628_1x1.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <img class="unveil" src="img/Bharath S_FLIPKART.jpg" data-src="img/Bharath S_FLIPKART.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
                                                     <div class="caption">
-                                                        <h5>Pallab Roy</h5>
+                                                        <h5>Bharath S</h5>
                                                         <span>Partner-Business Consulting, KPMG in India</span>
                                                     </div>
                                                 </a>
                                             </article>
-                                            <div id="speakers_35_detail" class="mfp-hide newsDetailDiv" style="padding:0 22px 22px 22px;">
-                                                <div class="row" style="background:#fff; padding:44px;">
-                                                    <div class="quote_popup clearfix">
-                                                        <figure>
-                                                            <img src="https://img.etb2bimg.com/files/cp/data_file_1676984852_20628_1x1.jpg" alt="Pallab Roy"/>
-                                                            <i class="fa circle fa-quote-left"></i>
-                                                        </figure>
-                                                        <div class="desc">
-                                                            <p class="title">Pallab Roy</p>
-                                                            <div class="author">
-                                                                <strong>Pallab Roy</strong>
-                                                                Partner-Business Consulting, KPMG in India<p></p>
-                                                            </div>
-                                                        </div>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Aashutosh Taparia.jpeg" data-src="img/Aashutosh Taparia.jpeg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Aashutosh Taparia</h5>
+                                                        <span>Head- LMD & Transport, BigBasket</span>
                                                     </div>
-                                                </div>
-                                            </div> -->
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Chand Tiwari_HAPPILOcopy.jpg" data-src="img/Chand Tiwari_HAPPILOcopy.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Chand Tiwari</h5>
+                                                        <span>Head Of Ecommerce</span>
+                                                        <span>Happilo</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Hemanth Mudadla_DECATHLON SPORTS INDIA.jpg" data-src="img/Hemanth Mudadla_DECATHLON SPORTS INDIA.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Hemanth Mudadla</h5>
+                                                        <span>Country Logistics Director</span>
+                                                        <span>Decathlon Sports India</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Manish Gupta_D2C ECOMMERCE.jpg" data-src="img/Manish Gupta_D2C ECOMMERCE.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Manish Gupta</h5>
+                                                        <span>Founder & CEO</span>
+                                                        <span>D2C E- Commerce</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Nitin Manchanda_AMAZON.jpg" data-src="img/Nitin Manchanda_AMAZON.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Nitin Manchanda</h5>
+                                                        <span>Head- Supply Chain Amazon Fresh</span>
+                                                        <span>Amazon</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Kamlesh Kumar_JUMBOTAIL.jpg" data-src="img/Kamlesh Kumar_JUMBOTAIL.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Kamlesh Kumar</h5>
+                                                        <span>VP- Supply Chain</span>
+                                                        <span>Jumbotail</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                           
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Abhijeet Kakani_FRESHTOHOME.jpg" data-src="img/Abhijeet Kakani_FRESHTOHOME.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Abhijeet Kakani</h5>
+                                                        <span>Head Of FTH Daily and Head of Planning & Replenishment
+                                                        </span>
+                                                        <span>FreshTo Home</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Arun Kumar Shetty_STARQUIK.jpg" data-src="img/Arun Kumar Shetty_STARQUIK.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Arun Kumar Shetty</h5>
+                                                        <span>Head Of Operations</span>
+                                                        <span>StarQuik</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                            <article class="col-lg-4 col-md-6 col-sm-6 col-xs-6 gridPadItem btstrp-edn2-crd-27">
+                                                <a id="speakers_item_35" href="#speakers_35_detail" target="_popup" class="imgframe  clearfix" data-popupid="" data-hoverpopup='{"imgPath_0":"https:\/\/img.etb2bimg.com\/files\/cp\/data_file_1676984852_20628_1x1.jpg","text_1":"Pallab Roy","text_2":"Partner-Business Consulting, KPMG in India","text_3":""}'>
+                                                    <img class="unveil" src="img/Abhisek Maji_FLIPKART.jpg" data-src="img/Abhisek Maji_FLIPKART.jpg" alt="Pallab Roy" onload="onMasonryGridImgLoaded()">
+                                                    <div class="caption">
+                                                        <h5>Abhishek Maji</h5>
+                                                        <span>Sr. Program Manager Supply Chain</span>
+                                                        <span>Flipkart</span>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                          
                                         </div>
                                     </div>
                                 </section>
@@ -9608,7 +9128,7 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                 <div style="position:relative;">
                                     <div id="why-attend-inpagenavid" style="position:absolute;"></div>
                                 </div>
-                                <section id="why-attend" class="mb-medium bgCover_1" >
+                                <section id="who-attend" class="mb-medium bgCover_1" >
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12">
@@ -9622,19 +9142,21 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                             <div class="row display-style2">
                                                 <div class="col-sm-6">
                                                     <ul>
-                                                        <li class="animated fadeInUp delay-1s">Featuring Inspiring Talks by SCM Thought Leaders</li>
-                                                        <li class="animated fadeInUp delay-2s">Unlock the year ahead in Supply chain Business</li>
-                                                        <li class="animated fadeInUp delay-3s">Acquire actionable insights for your Retail/Logistics Business</li>
+                                                        <li class="animated fadeInUp delay-1s"><strong>Expert Insights:</strong> Gain exclusive access to expert insights and industry trends from seasoned professionals and thought leaders. Benefit from over two decades of knowledge and experience brought to you by CARGOCONNECT.</li>
+                                                        <li class="animated fadeInUp delay-2s"><strong>Extensive Networking Opportunities:</strong> Connect with peers, industry leaders, and potential partners. Our conferences offer a platform for building valuable relationships and expanding your professional network.</li>
+                                                        <li class="animated fadeInUp delay-3s"><strong>Cutting-Edge Content:</strong> Experience curated sessions with enormous know-how, covering the latest advancements and best practices in supply chain and logistics.</li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <ul>
-                                                        <li class="animated fadeInUp delay-2s">Network in the executive- class environment</li>
-                                                        <li class="animated fadeInUp delay-3s">One-on-One Meets, Case studies, Round Table &amp;More</li>
+                                                        <li class="animated fadeInUp delay-2s"><strong>High-Quality Participation:</strong> We ensure absolute seriousness of attendance, making every participant's experience worthwhile. Our events are designed to be pivotal moments in the professional journeys of our attendees.</li>
+                                                        <li class="animated fadeInUp delay-3s"><strong>Comprehensive Industry Coverage:</strong> Our conferences address a wide range of topics within the supply chain ecosystem, ensuring comprehensive coverage and relevance for all attendees.</li>
+                                                        <li class="animated fadeInUp delay-3s"><strong>Exceptional Satisfaction:</strong> We pride ourselves on delivering 100% satisfaction for all participants. Our premium events are crafted to meet the highest standards, ensuring a valuable and enriching experience for everyone involved.</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </section>
                                 <div style="position:relative;">
@@ -9651,8 +9173,8 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                             </div>
                                         </div>
                                         <div class="container">
-                                            <div class="row animatedParent animateOnce mt-4" style="justify-content: center; align-items: center; display: flex;">
-                                                <div class="col-md-4">
+                                            <div class="row animatedParent animateOnce mt-4 " >
+                                                <div class="col-lg-6 col-md-6 col-xs-12">
                                                     <div class="contact animated delay-2s lightSpeedIn">
                                                         <!-- <h5>For Marketing Alliance</h5> -->
                                                         <span class="name">Ajeet Kumar</span>
@@ -9662,7 +9184,7 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-lg-6 col-md-6 col-xs-12">
                                                     <div class="contact animated delay-2s lightSpeedIn">
                                                         <!-- <h5>For Marketing Alliance</h5> -->
                                                         <span class="name">Smiti Suri</span>
@@ -9681,12 +9203,12 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                                 <div class="col-md-4"></div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-12 text-style">
+                                                <!-- <div class="col-md-12 text-style">
                                                     <p>
                                                         For any issues requiring immediate escalation, please write to <a href="mailto:shahbaz.khan@timesinternet.in" target="_blank">shahbaz.khan@timesinternet.in</a>
                                                         - Md. Shahbaz Khan,<br/>Head of Special Initiatives &amp;Business Strategy, The Economic Times Business Verticals.
                                                     </p>
-                                                </div>
+                                                </div> -->
                                             </div>
 
                                             
@@ -9703,7 +9225,7 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                                 <div class="col-md-12 mb-sm">
                                                     <div class="main-content1 clearfix">
                                                         <div class="page_Media">
-                                                            <h2>ABOUT SURECOMM MEDIA</h2>
+                                                            <h2>ABOUT SURECOMMEDIA</h2>
                                                             <span></span>
                                                         </div>
                                                         <div class="text-style">
@@ -9735,8 +9257,8 @@ E-COMCONNECT 2024 - Attendee Profile: Supply Chain; Logistics; Procurement; Oper
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="page_hdng4">
-                                                    <h2> SupplyChain events scheduled for 2024-25</h2>
+                                                <div class="page_hdng4" id="event-scheduled">
+                                                    <h2> Supply Chain events scheduled for 2024-25</h2>
                                                     <span></span>
                                                 </div>
                                                 <div id="evntphotos_itemsList" class="justifiedgallerygrid hide_" style="overflow-x:auto;">
@@ -19201,12 +18723,12 @@ function onMasonryGridImgLoaded(e)
             <div id="ms_footer">
                 <div class="top-sctn">
                     <div class="container">
-                        <div class="row" style="padding:20px 0px;">
+                        <!-- <div class="row" style="padding:20px 0px;">
                             <div class="col-md-6 col-xs-6">
                                 <div class="logo1">
                                     <img style="height:26px;" src="https://st.etb2bimg.com/Themes/Release/images/site-logos/et-retail-footer.png" alt=""/>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-md-6 col-xs-6">
                                 <div class="social">
                                     <div class="follow-wdgt1" style="text-align:right">
@@ -19304,8 +18826,8 @@ function onMasonryGridImgLoaded(e)
                 </div> -->
             <!-- </div> -->
             <div class="container-fluid footer-container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-6 mb-4 footer-column">
+                <div class="row justify-content-center " style="margin-inline: 10px;">
+                    <div class="col-lg-4 col-md-6 mb-4 footer-column">
                         <img src="img/logo.webp" alt="Logo">
                         <ul>
                             <li>ECOMCONNECT 2024</li>
@@ -19314,21 +18836,11 @@ function onMasonryGridImgLoaded(e)
                             <li>Event Date & Venue: 20 June 2024, Bangalore</li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4 footer-column">
-                        <iframe class="position-relative w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898319.2247407578!2d75.899295146875!3d28.417462299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2365dee524cf%3A0x2722530169a485b1!2sDelight%20windows!5e0!3m2!1sen!2sin!4v1716897613951!5m2!1sen!2sin" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="col-lg-4 col-md-6 mb-4 footer-column">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3503.4977542311335!2d77.24831317549909!3d28.58484077569086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM1JzA1LjQiTiA3N8KwMTUnMDMuMiJF!5e0!3m2!1sen!2sin!4v1717244358080!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-xs-12 mb-4 footer-column">
-                        <p>Useful links</p>
-                        <ul>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Sponsor</li>
-                            <li>Agenda</li>
-                            <li>Speaker</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 footer-column contact-info">
+                  
+                    <div class="col-lg-4 col-md-6 mb-4 footer-column contact-info">
                         <p>Contact Info</p>
                         <ul>
                             <li>4/23B, First Floor, Jangpura B, Mathura Road, New Delhi-110014</li>
@@ -19359,7 +18871,7 @@ function onMasonryGridImgLoaded(e)
                     padding: 0;
                 }
                 .footer-container ul li {
-                    font-size: 15px;
+                    font-size: 18px;
                     color: white;
                     margin: 10px 0;
                 }
@@ -19392,13 +18904,7 @@ function onMasonryGridImgLoaded(e)
             
 
             <script type="text/javascript">
-                /*
-  (function() {
-	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	po.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-532fcb064292031c';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-*/
+
                 (function() {
                     var po = document.createElement('script');
                     po.type = 'text/javascript';
